@@ -2,8 +2,9 @@
   "name": "project-euler",
   "version": "1.0.0",
   "description": "A project to store all projecteuler.net solutions",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "exit 0"
   },
   "repository": {
