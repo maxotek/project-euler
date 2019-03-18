@@ -1,0 +1,22 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "A project to store all projecteuler.net solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxotek/project-euler.git"
+  },
+  "keywords": [
+    "algorithms"
+  ],
+  "author": "partho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxotek/project-euler/issues"
+  },
+  "homepage": "https://github.com/maxotek/project-euler#readme"
+}
