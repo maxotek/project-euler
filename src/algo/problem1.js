@@ -5,4 +5,6 @@ module.exports = function(){
         if(i % 5 == 0 || i % 3 == 0)
         sum += i;
     }
+
+    return sum;
 }

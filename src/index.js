@@ -3,6 +3,7 @@ const algo = require("./algo/problem1.js");
 var start = process.hrtime.bigint();
 
 var sum = algo();
+console.log(`Result of Problem 1 = ${sum}`);
 
 var end = process.hrtime.bigint();
 var diff = parseInt(`${end - start}`);
