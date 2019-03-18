@@ -1,11 +1,8 @@
-var sum = 0;
+const algo = require("./algo/problem1.js");
+
 var start = process.hrtime.bigint();
 
-for(var i = 0; i < 1000; i++)
-{
-    if(i % 5 == 0 || i % 3 == 0)
-    sum += i;
-}
+var sum = algo();
 
 var end = process.hrtime.bigint();
 var diff = parseInt(`${end - start}`);
