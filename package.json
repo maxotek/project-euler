@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "exit 0"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
